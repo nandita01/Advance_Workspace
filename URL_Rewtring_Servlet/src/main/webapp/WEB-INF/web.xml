@@ -1,0 +1,41 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>Valid</servlet-name>
+  	<display-name>Valid</display-name>
+  	<description></description>
+  	<servlet-class>com.pp.Valid</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>Valid2</servlet-name>
+  	<display-name>Valid2</display-name>
+  	<description></description>
+  	<servlet-class>com.pp.Valid2</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>Valid3</servlet-name>
+  	<display-name>Valid3</display-name>
+  	<description></description>
+  	<servlet-class>com.pp.Valid3</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Valid</servlet-name>
+  	<url-pattern>/Valid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Valid2</servlet-name>
+  	<url-pattern>/Valid2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Valid3</servlet-name>
+  	<url-pattern>/Valid3</url-pattern>
+  </servlet-mapping>
+</web-app>
